@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Find your way to Wilder, a collection of thoughtful cabins made for getting a little closer to nature."
+    />
+    <meta name="theme-color" content="#f6f5ef" />
+    <title>Wilder — Stay a little closer to nature</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Wilder home">
+        <span class="brand-mark" aria-hidden="true">w.</span>
+        <span>wilder</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+        aria-label="Open navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="#stays">Our stays</a>
+        <a href="#story">Our story</a>
+        <a href="#journal">Field notes</a>
+        <a class="nav-cta" href="#stays">Find your stay <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-image" role="img" aria-label="Quiet alpine lake surrounded by mountains at sunrise"></div>
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow"><span class="eyebrow-dot"></span> A different kind of getaway</p>
+          <h1 id="hero-title">A little closer<br />to <em>somewhere.</em></h1>
+          <p class="hero-description">
+            Thoughtful little cabins in the places that make you feel a little more like yourself.
+          </p>
+          <a class="button button-light" href="#stays">
+            Find your somewhere <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="hero-coordinate">
+          <span class="coordinate-mark" aria-hidden="true">
+            <svg class="leaf-icon" viewBox="0 0 24 24" fill="none">
+              <path d="M19.5 4.5C11.1 4.8 6.2 7.9 6.2 13.1c0 3.2 2.3 5.3 5.2 5.3 5.3 0 8.3-5.3 8.1-13.9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M4.6 20c2.5-4 5.4-6.8 9.5-9.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </span>
+          <span>39° 11' 12.4" N<br />In the good kind of middle of nowhere</span>
+        </div>
+        <a class="scroll-cue" href="#story"><span></span> Scroll to slow down</a>
+        <div class="hero-index"><span>01</span> — 03</div>
+      </section>
+
+      <section class="intro section-wrap reveal" id="story">
+        <div class="intro-label">
+          <span class="section-number">01 / THE WILDER WAY</span>
+          <span class="little-star" aria-hidden="true">
+            <svg class="leaf-icon" viewBox="0 0 24 24" fill="none">
+              <path d="M19.5 4.5C11.1 4.8 6.2 7.9 6.2 13.1c0 3.2 2.3 5.3 5.2 5.3 5.3 0 8.3-5.3 8.1-13.9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M4.6 20c2.5-4 5.4-6.8 9.5-9.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </span>
+        </div>
+        <div class="intro-content">
+          <h2>Less itinerary.<br /><em>More feeling.</em></h2>
+          <div class="intro-note">
+            <p>
+              Wilder is a growing collection of cabins for taking the scenic route, staying up for
+              the stars, and remembering what quiet sounds like.
+            </p>
+            <a class="text-link" href="#journal">A little about us <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="intro-stats" aria-label="Wilder by the numbers">
+          <div><strong>12</strong><span>one-of-a-kind stays</span></div>
+          <div><strong>0</strong><span>meetings that could've been emails</span></div>
+          <div><strong>∞</strong><span>reasons to stay one more night</span></div>
+        </div>
+      </section>
+
+      <section class="stays-section" id="stays">
+        <div class="section-wrap">
+          <div class="section-heading reveal">
+            <div>
+              <span class="section-number">02 / PLACES TO GET LOST</span>
+              <h2>Pick your <em>outside.</em></h2>
+            </div>
+            <a class="text-link" href="#journal">See all stays <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="stay-grid">
+            <article class="stay-card stay-card-tall reveal">
+              <a class="stay-image stay-image-lake" href="#booking" aria-label="Discover The Lookout cabin">
+                <span class="image-tag">01 — HIGH COUNTRY</span>
+                <span class="stay-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="stay-info">
+                <div><h3>The Lookout</h3><p>Leadville, Colorado</p></div>
+                <span>From $240 <small>/ night</small></span>
+              </div>
+            </article>
+            <article class="stay-card stay-card-offset reveal">
+              <a class="stay-image stay-image-pines" href="#booking" aria-label="Discover the Pine &amp; Peak cabin">
+                <span class="image-tag">02 — DEEP WOODS</span>
+                <span class="stay-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="stay-info">
+                <div><h3>Pine &amp; Peak</h3><p>Woodstock, New York</p></div>
+                <span>From $195 <small>/ night</small></span>
+              </div>
+            </article>
+            <article class="stay-card stay-card-third reveal">
+              <a class="stay-image stay-image-desert" href="#booking" aria-label="Discover the Open Sky cabin">
+                <span class="image-tag">03 — OPEN LAND</span>
+                <span class="stay-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="stay-info">
+                <div><h3>Open Sky</h3><p>Marfa, Texas</p></div>
+                <span>From $215 <small>/ night</small></span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-section reveal" id="journal">
+        <span class="quote-star" aria-hidden="true">
+          <svg class="leaf-icon" viewBox="0 0 24 24" fill="none">
+            <path d="M19.5 4.5C11.1 4.8 6.2 7.9 6.2 13.1c0 3.2 2.3 5.3 5.2 5.3 5.3 0 8.3-5.3 8.1-13.9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M4.6 20c2.5-4 5.4-6.8 9.5-9.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+          </svg>
+        </span>
+        <p class="section-number">A NOTE FROM THE WOODS</p>
+        <blockquote>
+          “We came home with dirt on our boots and absolutely nothing on our calendar.”
+        </blockquote>
+        <span class="quote-credit">JAMIE &amp; ALEX — THE LOOKOUT, OCTOBER 2025</span>
+      </section>
+
+      <section class="booking-banner reveal" id="booking">
+        <div>
+          <span class="section-number">YOUR OUT-OF-OFFICE IS CALLING</span>
+          <h2>Go on. Get a<br /><em>little lost.</em></h2>
+        </div>
+        <a class="button button-dark" href="mailto:hello@staywilder.example">
+          Find your cabin <span aria-hidden="true">↗</span>
+        </a>
+        <div class="banner-scribble" aria-hidden="true">take<br />the long way</div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">w.</span><span>wilder</span></a>
+      <p>Made for the in-between moments.</p>
+      <div class="footer-links">
+        <a href="#stays">Find a stay</a>
+        <a href="mailto:hello@staywilder.example">Say hello</a>
+        <span>© <span id="current-year">2026</span> Wilder Stays</span>
+      </div>
+    </footer>
+  </body>
+</html>
